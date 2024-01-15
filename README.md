@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [github.com/ironest/blog-preview-card](https://github.com/ironest/blog-preview-card)
-- Live Demo URL: [blog-preview-card-ashen.vercel.app](blog-preview-card-ashen.vercel.app)
+- Live Demo URL: [blog-preview-card-ashen.vercel.app](https://blog-preview-card-ashen.vercel.app/)
 
 ## My process
 
