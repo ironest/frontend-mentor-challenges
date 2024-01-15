@@ -58,6 +58,11 @@ body {
   margin-bottom: 24px;
 }
 
+.card-title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
 .card-description {
   font-size: 14px;
   line-height: 21px;
