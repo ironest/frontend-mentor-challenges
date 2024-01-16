@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="score">
+        <span class="score-label">Your Result</span>
+
+        <div class="score-result">
+          <span class="big">76</span>
+          <span class="small">of 100</span>
+        </div>
+        <span class="score-greeting">Great</span>
+        <span class="score-insight">
+          You scored higher than 65% of the people who have taken these tests.
+        </span>
+      </div>
+      <div class="summary">
+        <span class="summary-label">Summary</span>
+
+        <div class="summary-skill red">
+          <span class="skill-name">
+            <img src="./assets/images/icon-reaction.svg" />Reaction</span
+          >
+          <span class="skill-value">80 <span class="light">/ 100</span></span>
+        </div>
+
+        <div class="summary-skill yellow">
+          <span class="skill-name"
+            ><img src="./assets/images/icon-memory.svg" />Memory</span
+          >
+          <span class="skill-value">92 <span class="light">/ 100</span></span>
+        </div>
+        <div class="summary-skill green">
+          <span class="skill-name"
+            ><img src="./assets/images/icon-verbal.svg" />Verbal</span
+          >
+          <span class="skill-value">61 <span class="light">/ 100</span></span>
+        </div>
+        <div class="summary-skill blue">
+          <span class="skill-name"
+            ><img src="./assets/images/icon-visual.svg" />Visual</span
+          >
+          <span class="skill-value">72 <span class="light">/ 100</span></span>
+        </div>
+
+        <a href="" class="btn-continue">Continue</a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >.<br />Coded by <a href="#">Riccardo (Ricky) Carzaniga</a>.
+    </div>
+  </body>
+</html>
