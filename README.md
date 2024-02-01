@@ -12,7 +12,7 @@ This repo contains professionally designed solution to Frontend Mentor challenge
 
 ## Links
 
-- Social links profile - [Work In Progress](#)
+- Social links profile: [Challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | [Source Code](https://github.com/ironest/frontend-mentor-challenges/tree/master/social-links-profile) | [Live Demo](https://social-links-profile-blue.vercel.app/)
 - Blog preview card - [Work In Progress](#)
 - Result summary component - [Work In Progress](#)
 
