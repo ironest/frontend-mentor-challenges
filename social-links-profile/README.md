@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [github.com/ironest/blog-preview-card](https://github.com/ironest/blog-preview-card)
-- Live Demo URL: [blog-preview-card-ashen.vercel.app](https://blog-preview-card-ashen.vercel.app/)
+- Repository URL: [github.com/ironest/social-links-profile](https://github.com/ironest/social-links-profile)
+- Live Demo URL: [social-links-profile-blue.vercel.app](https://social-links-profile-blue.vercel.app/)
 
 ## My process
 
