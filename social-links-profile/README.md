@@ -62,4 +62,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-Thanks to JCode99, Javier and Liz for introducing me to the fantastic platform [Frontend Mentor](https://www.frontendmentor.io) and for the motivation they provide each other. Thanks guys.
+C.I.T.E. (Code In the Evening) a new group of emerging developers consisting of myself, @jfcode101, @martinsliz and @javier-liz-0955ba24. Thank you guys for introducing me to the fantastic platform [Frontend Mentor](https://www.frontendmentor.io) and for the motivation you provide each other.
