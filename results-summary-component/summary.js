@@ -19,6 +19,7 @@ fetch("./data.json")
 
       const skillIcon = document.createElement('img');
       skillIcon.setAttribute('src', entry.icon);
+      skillIcon.setAttribute('alt', 'Icon for ' + entry.category);
 
       const skillCategory = document.createTextNode(entry.category);
 
