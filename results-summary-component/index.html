@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="score">
+        <span class="score-label">Your Result</span>
+
+        <div class="score-result">
+          <span class="big"></span>
+          <span class="small">of 100</span>
+        </div>
+        <span class="score-greeting">Great</span>
+        <span class="score-insight">
+          You scored higher than 65% of the people who have taken these tests.
+        </span>
+      </div>
+      <div class="summary">
+        <span class="summary-label">Summary</span>
+
+        <div id="dynamic-skill-list">
+        </div>
+        <a href="#" class="btn-continue">Continue</a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >.<br />Coded by <a href="#">Riccardo (Ricky) Carzaniga</a>.
+    </div>
+    <script src="./summary.js"></script>
+  </body>
+</html>

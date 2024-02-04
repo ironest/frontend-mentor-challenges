@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  /* height: 100%; */
+}
+
+.score {
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%) 0%,
+    hsl(252, 100%, 67%) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 33px 33px;
+  padding: 24px 0 40px;
+  color: #fff;
+}
+
+.score-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.5);
+  margin-bottom: 24px;
+}
+
+.score-result {
+  background: linear-gradient(
+    0deg,
+    hsla(241, 72%, 46%, 0),
+    hsla(256, 72%, 46%, 1)
+  );
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.score-result .big {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.score-result .small {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.score-greeting {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.score-insight {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-align: center;
+  width: 260px;
+}
+
+.summary {
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.summary-label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-left: 2px;
+}
+
+.summary-skill {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 18px 20px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-skill:last-child {
+  margin-bottom: 22px;
+}
+
+.skill-name {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.skill-value {
+  color: black;
+}
+
+.skill-value .light {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.red {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.06);
+}
+
+.yellow {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.06);
+}
+
+.green {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.06);
+}
+
+.blue {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.06);
+}
+
+.btn-continue {
+  background-color: hsl(224, 30%, 27%);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 0;
+  border-radius: 28px;
+}
+
+.btn-continue:hover {
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%) 0%,
+    hsl(252, 100%, 67%) 100%
+  );
+}
+
+.attribution {
+  padding: 1rem 0 1rem;
+  font-size: 11px;
+  text-align: center;
+  opacity: 0.6;
+}
+.attribution a {
+  color: hsl(234, 85%, 45%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    justify-content: center;
+  }
+
+  .wrapper {
+    width: 738px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 33px;
+    box-shadow: 10px 10px 17px 8px rgba(0, 71, 255, 0.2);
+    height: initial;
+  }
+
+  .wrapper::after {
+    background-image: url("./design/test.png");
+  }
+
+  .score {
+    width: 369px;
+    border-radius: 33px;
+    justify-content: flex-start;
+  }
+
+  .score-label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 35px;
+  }
+
+  .score-result {
+    width: 200px;
+    height: 200px;
+  }
+
+  .score-result .big {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+  }
+
+  .score-result .small {
+    font-size: 18px;
+  }
+
+  .score-greeting {
+    font-size: 34px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+
+  .score-insight {
+    font-size: 18px;
+    width: 250px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+  }
+
+  .summary {
+    width: 369px;
+    padding: 40px;
+  }
+
+  .summary-label {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .summary-skill {
+    font-size: 18px;
+    margin-bottom: 13px;
+    padding: 18px 18px 18px 15px;
+  }
+
+  .summary-skill:last-child {
+    margin-bottom: 40px;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 1rem;
+    padding: 0;
+  }
+}
