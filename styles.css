@@ -8,14 +8,20 @@
 body {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .wrapper {
+  position: relative;
   width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: stretch;
+  /* height: 100%; */
 }
 
 .score {
@@ -53,13 +59,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .score-result .big {
   font-size: 56px;
   font-weight: 700;
+  margin-top: 4px;
 }
+
 .score-result .small {
   font-size: 16px;
   font-weight: 500;
@@ -70,7 +78,7 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .score-insight {
@@ -154,11 +162,104 @@ body {
 }
 
 .attribution {
-  padding-bottom: 25px;
-  bottom: 25px;
+  padding: 1rem 0 1rem;
   font-size: 11px;
   text-align: center;
+  opacity: 0.6;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(234, 85%, 45%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    justify-content: center;
+  }
+
+  .wrapper {
+    width: 738px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 33px;
+    box-shadow: 10px 10px 17px 8px rgba(0, 71, 255, 0.2);
+    height: initial;
+  }
+
+  .wrapper::after {
+    background-image: url("./design/test.png");
+  }
+
+  .score {
+    width: 369px;
+    border-radius: 33px;
+    justify-content: flex-start;
+  }
+
+  .score-label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 35px;
+  }
+
+  .score-result {
+    width: 200px;
+    height: 200px;
+  }
+
+  .score-result .big {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+  }
+
+  .score-result .small {
+    font-size: 18px;
+  }
+
+  .score-greeting {
+    font-size: 34px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+
+  .score-insight {
+    font-size: 18px;
+    width: 250px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+  }
+
+  .summary {
+    width: 369px;
+    padding: 40px;
+  }
+
+  .summary-label {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .summary-skill {
+    font-size: 18px;
+    margin-bottom: 13px;
+    padding: 18px 18px 18px 15px;
+  }
+
+  .blue {
+    margin-bottom: 40px;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 1rem;
+    padding: 0;
+  }
+
 }
