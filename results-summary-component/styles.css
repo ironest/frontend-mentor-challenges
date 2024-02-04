@@ -115,6 +115,10 @@ body {
   justify-content: space-between;
 }
 
+.summary-skill:last-child {
+  margin-bottom: 22px;
+}
+
 .skill-name {
   display: flex;
   align-items: center;
@@ -147,7 +151,6 @@ body {
 .blue {
   color: hsl(234, 85%, 45%);
   background-color: hsla(234, 85%, 45%, 0.06);
-  margin-bottom: 22px;
 }
 
 .btn-continue {
@@ -159,6 +162,14 @@ body {
   font-weight: 700;
   padding: 16px 0;
   border-radius: 28px;
+}
+
+.btn-continue:hover {
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%) 0%,
+    hsl(252, 100%, 67%) 100%
+  );
 }
 
 .attribution {
@@ -252,7 +263,7 @@ body {
     padding: 18px 18px 18px 15px;
   }
 
-  .blue {
+  .summary-skill:last-child {
     margin-bottom: 40px;
   }
 
@@ -261,5 +272,4 @@ body {
     bottom: 1rem;
     padding: 0;
   }
-
 }
