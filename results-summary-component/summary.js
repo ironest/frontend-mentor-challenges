@@ -28,7 +28,7 @@ fetch("./data.json")
       
       const skillLight = document.createElement('span')
       skillLight.classList.add('light');
-      skillLight.appendChild(document.createTextNode('/ 100'));
+      skillLight.appendChild(document.createTextNode(' / 100'));
 
       skillValue.appendChild(skillLight);
       skillName.appendChild(skillIcon);
