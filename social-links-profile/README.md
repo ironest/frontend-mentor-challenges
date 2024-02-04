@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [github.com/ironest/social-links-profile](https://github.com/ironest/social-links-profile)
+- Repository URL: [github.com/ironest/frontend-mentor-challenges/tree/master/social-links-profile](https://github.com/ironest/frontend-mentor-challenges/tree/master/social-links-profile)
 - Live Demo URL: [social-links-profile-blue.vercel.app](https://social-links-profile-blue.vercel.app/)
 
 ## My process
