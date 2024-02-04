@@ -14,7 +14,7 @@ This repo contains professionally designed solution to Frontend Mentor challenge
 
 - Social links profile: [Challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | [Source Code](https://github.com/ironest/frontend-mentor-challenges/tree/master/social-links-profile) | [Live Demo](https://social-links-profile-blue.vercel.app/)
 - Blog preview card: [Challenge](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) | [Source Code](https://github.com/ironest/frontend-mentor-challenges/tree/master/blog-preview-card) | [Live Demo](https://blog-preview-card-ashen.vercel.app/)
-- Result summary component - [Work In Progress](#)
+- Result summary component: [Challenge](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) | [Source Code](https://github.com/ironest/frontend-mentor-challenges/tree/master/results-summary-component) | [Live Demo](https://results-summary-component-west.vercel.app/)
 
 ## Author
 
