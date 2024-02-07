@@ -1,3 +1,11 @@
+:root {
+  --primary-highlight: hsl(75, 94%, 57%);
+  --neutral-text: hsl(0, 0%, 100%);
+  --large-color: hsl(0, 0%, 8%);
+  --medium-color: hsl(0, 0%, 12%);
+  --small-color: hsl(0, 0%, 20%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,20 +14,43 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 8%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--large-color);
+  color: var(--neutral-text);
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
+.theme-picker {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.theme-picker > fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  display: flex;
+  gap: 1rem;
+  background-color: var(--medium-color);
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.theme-picker > fieldset > label > input {
+  margin-right: .7rem;
+}
+
 main {
-    background-color: hsl(0, 0%, 12%);
-    width: 327px;
-    border-radius: 12px;
-    padding: 24px;
-    position: relative
+  background-color: var(--medium-color);
+  width: 327px;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
 }
 
 img {
@@ -41,7 +72,7 @@ h2 {
   font-size: 14px;
   font-weight: 600;
   text-align: center;
-  color: hsl(75, 94%, 57%);
+  color: var(--primary-highlight);
   margin-bottom: 28px;
 }
 
@@ -61,7 +92,7 @@ nav {
 nav a {
   text-decoration: none;
   color: inherit;
-  background-color: hsl(0, 0%, 20%);
+  background-color: var(--small-color);
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -70,8 +101,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: hsl(75, 94%, 57%);
-  color: hsl(0, 0%, 20%);
+  background-color: var(--primary-highlight);
+  color: var(--small-color);
 }
 
 .attribution {
@@ -79,10 +110,10 @@ nav a:hover {
   bottom: 25px;
   font-size: 11px;
   text-align: center;
-  opacity: .4;
+  opacity: 0.4;
 }
 .attribution a {
-  color: hsl(75, 94%, 57%);
+  color: var(--primary-highlight);
   text-decoration: none;
 }
 
@@ -91,11 +122,9 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 400px) {
-
   main {
     width: 384px;
     border-radius: 12px;
     padding: 40px;
   }
-
 }

@@ -1,0 +1,44 @@
+:root {
+  /* color */
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--off-white);
+  width: 340px;
+  height: 300px;
+  margin-top: 100px;
+  /* border-radius: 25%; */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 100px;
+  padding: 40px 24px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container input, .input-container label {
+  width: 85px;
+} 
