@@ -13,19 +13,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   background-color: var(--off-white);
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .card {
   background-color: var(--white);
   width: 342px;
-  margin-top: 100px;
   border-radius: 25px 25px 100px 25px;
   padding: 48px 24px;
   position: relative;
@@ -131,6 +133,22 @@ hr {
   color: var(--purple);
 }
 
+.attribution {
+  position: absolute;
+  bottom: 25px;
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+}
+.attribution a {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 860px) {
   .card {
     width: 840px;
@@ -178,4 +196,9 @@ hr {
     line-height: 114px;
   }
 
+  .attribution {
+    position: absolute;
+    bottom: 1rem;
+    padding: 0;
+  }
 }
