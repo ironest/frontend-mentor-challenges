@@ -3,18 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
     <title>Frontend Mentor Challenges</title>
   </head>
   <body>
-    <h1>Frontend Mentor Challenges</h1>
-    <h2>Solutions</h2>
-    <ul>
-      <li><a href="./blog-preview-card/">Blog Preview Card</a></li>
-      <li>
-        <a href="./results-summary-component/">Result Summary Component</a>
-      </li>
-      <li><a href="./social-links-profile/">Social Links Profile</a></li>
-      <li><a href="./age-calculator-app/">Age Calculator App</a></li>
-    </ul>
+    <header>
+      <img
+        src="./src/img/logo-title.svg"
+        class="logo-title"
+        alt="Frontend Mentor Title"
+      />
+    </header>
+    <main>
+      <h1>My projects</h1>
+
+      <div id="project-list">
+        <div class="project-card">
+          <div class="preview">
+            <img src="./age-calculator-app/design/desktop-preview.jpg" />
+          </div>
+          <div class="info">
+            <h2 class="project-name">Age calculator app</h2>
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>JUNIOR</li>
+            </ul>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, quia, molestias asperiores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/main.js"></script>
   </body>
 </html>
