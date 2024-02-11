@@ -4,33 +4,30 @@
       "folder": "blog-preview-card",
       "name": "Blog preview card",
       "skills": ["HTML", "CSS"],
-      "difficulty": "NEWBIE",
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
+      "difficulty": 0,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
     },
     {
       "folder": "social-links-profile",
       "name": "Social links profile",
       "skills": ["HTML", "CSS"],
-      "difficulty": "NEWBIE",
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
+      "difficulty": 0,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
     },
     {
       "folder": "results-summary-component",
       "name": "Results summary component",
       "skills": ["HTML", "CSS"],
-      "difficulty": "NEWBIE",
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
+      "difficulty": 0,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
     },
     {
       "folder": "age-calculator-app",
       "name": "Age calculator app",
       "skills": ["HTML", "CSS", "JS"],
-      "difficulty": "JUNIOR",
-      "description":
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
+      "difficulty": 1,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quia, molestias asperiores."
     }
-  ]
+  ],
+  "difficulties": ["NEWBIE", "JUNIOR", "INTERMEDIATE", "ADVANCED", "GURU"]
 }

@@ -1,6 +1,6 @@
 fetch("./src/data.json")
   .then((response) => response.json())
-  .then(({ projects }) => {
+  .then(({ projects, difficulties }) => {
     const projectList = document.querySelector("#project-list");
 
     const htmlBlock = projects
@@ -8,15 +8,27 @@ fetch("./src/data.json")
         return `
           <div class="project-card">
             <div class="preview">
-              <img src="./${proj.folder}/design/desktop-preview.jpg" />
+              <a href="./${proj.folder}">
+                <img src="./${proj.folder}/design/desktop-preview.jpg" />
+              </a>
             </div>
             <div class="info">
-              <h2 class="project-name">${proj.name}</h2>
+              <h2 class="project-name">
+                <a href="./${proj.folder}">
+                  ${proj.name}
+                </a>
+              </h2>
               <ul class="skills">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>JUNIOR</li>
+                ${proj.skills
+                  .map(
+                    (skill) =>
+                      `<li class="${skill.toLowerCase()}">${skill}</li>`
+                  )
+                  .join("")}
+                <li class="difficulty">
+                  <span class="${difficulties[proj.difficulty].toLowerCase()}">${proj.difficulty + 1}</span>
+                  <span class="${difficulties[proj.difficulty].toLowerCase()}">${difficulties[proj.difficulty]}</span>
+                </li>
               </ul>
               <p class="description">
                 ${proj.description}
@@ -25,7 +37,7 @@ fetch("./src/data.json")
           </div>
         `;
       })
-      .join('');
+      .join("");
 
-      projectList.innerHTML = htmlBlock;
+    projectList.innerHTML = htmlBlock;
   });

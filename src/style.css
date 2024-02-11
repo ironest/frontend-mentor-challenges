@@ -45,7 +45,7 @@ h1 {
   background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.05);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
 }
 
 #project-list {
@@ -86,7 +86,6 @@ h1 {
 
 .info {
   padding: 1.5rem;
-  /* height: 225px; */
 }
 
 h2 {
@@ -95,8 +94,16 @@ h2 {
   font-weight: 400;
   display: -webkit-box;
   -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+h2 > a {
+  color: rgb(28, 32, 34);
+}
+
+h2 > a:hover {
+  text-decoration: underline;
 }
 
 .skills {
@@ -105,6 +112,77 @@ h2 {
   gap: 0.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.html {
+  color: rgb(106, 190, 205);
+}
+.css {
+  color: rgb(62, 84, 163);
+}
+.js {
+  color: rgb(207, 99, 144);
+}
+.api {
+  color: rgb(170, 215, 66);
+}
+
+.difficulty {
+  font-size: 0.8rem;
+  margin-left: auto;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.difficulty span {
+  text-align: center;
+  padding: 2px 8px 2px 7px;
+  background-color: black;
+  color: black;
+  border: 1px solid black;
+}
+
+.difficulty .newbie {
+  background-color: rgb(106, 190, 205);
+  color: rgb(106, 190, 205);
+  border-color: rgb(106, 190, 205);
+}
+
+.difficulty .junior {
+  background-color: rgb(170, 215, 66);
+  color: rgb(170, 215, 66);
+  border-color: rgb(170, 215, 66);
+}
+
+.difficulty .intermediate {
+  background-color: rgb(241, 182, 4);
+  color: rgb(241, 182, 4);
+  border-color: rgb(241, 182, 4);
+}
+
+.difficulty .advanced {
+  background-color: rgb(244, 137, 37);
+  color: rgb(244, 137, 37);
+  border-color: rgb(244, 137, 37);
+}
+
+.difficulty .guru {
+  background-color: rgb(237, 44, 73);
+  color: rgb(237, 44, 73);
+  border-color: rgb(237, 44, 73);
+}
+
+.difficulty span:nth-child(1) {
+  color: white;
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+.difficulty span:nth-child(2) {
+  background-color: white;
+  border-left: 0;
+  border-radius: 0 0.2rem 0.2rem 0;
 }
 
 .description {
@@ -113,6 +191,6 @@ h2 {
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
