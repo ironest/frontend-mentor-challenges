@@ -55,7 +55,7 @@ h1 {
   justify-content: center;
   align-items: self-start;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .preview {
@@ -64,7 +64,6 @@ h1 {
 }
 
 .preview img {
-  /* height: 220px; */
   width: 100%;
   object-fit: cover;
   transition: transform 300ms ease 0ms;
@@ -193,4 +192,16 @@ h2 > a:hover {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* Compact Mode Enabled */
+.description {
+  display: none;
+}
+.skills {
+  margin-bottom: 0;
+}
+.project-card {
+  min-width: 200px;
+  max-width: 250px;
 }
