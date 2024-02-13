@@ -142,6 +142,7 @@ h2 > a:hover {
   background-color: black;
   color: black;
   border: 1px solid black;
+  min-width: 24px;
 }
 
 .difficulty .newbie {

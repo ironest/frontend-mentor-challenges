@@ -26,30 +26,27 @@ body {
 .advice-card {
   background-color: var(--dark-grayish-blue);
   width: 345px;
-  padding: 40px 20px 0;
+  padding: 40px 24px 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
+  box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.2);
 
   position: relative;
-
-  box-shadow: 20px 20px 40px 0 rgba(0,0,0,0.2);
-  /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
-
 }
 
 /* .advice-card::after {
-  content: '';
+  content: "";
   position: absolute;
-  background-image: url('./misc/mobile.png');
-  opacity: 0.5;
-  top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("./misc/desktop.png");
   opacity: 0.5;
 } */
 
@@ -73,6 +70,10 @@ p {
 .divider {
   margin-top: 24px;
   margin-bottom: 32px;
+  background-image: url('./images/pattern-divider-mobile.svg');
+  background-position: center;
+  width: 100%;
+  height: 16px;
 }
 
 #btn-dice {
@@ -166,4 +167,29 @@ p {
   to {
     -webkit-transform: rotate(360deg);
   }
+}
+
+@media only screen and (min-width: 572px) {
+  .advice-card {
+    width: 540px;
+    border-radius: 15px;
+    padding: 48px 48px 0;
+  }
+  h1 {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
 }
