@@ -39,7 +39,6 @@ h1 {
 }
 
 .project-card {
-  min-width: 300px;
   max-width: 344px;
   border: 1px solid rgb(219, 229, 230);
   background-color: rgb(255, 255, 255);
@@ -201,8 +200,4 @@ h2 > a:hover {
 }
 .skills {
   margin-bottom: 0;
-}
-.project-card {
-  min-width: 200px;
-  max-width: 250px;
 }
