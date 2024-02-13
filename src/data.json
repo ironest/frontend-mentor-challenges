@@ -31,7 +31,7 @@
     {
       "folder": "advice-generator-app",
       "name": "Advice generator app",
-      "skills": ["HTML", "CSS", "JS"],
+      "skills": ["HTML", "CSS", "JS", "API"],
       "difficulty": 1,
       "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
     }
