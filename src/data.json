@@ -27,6 +27,13 @@
       "skills": ["HTML", "CSS", "JS"],
       "difficulty": 1,
       "description": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!"
+    },
+    {
+      "folder": "advice-generator-app",
+      "name": "Advice generator app",
+      "skills": ["HTML", "CSS", "JS"],
+      "difficulty": 1,
+      "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
     }
   ],
   "difficulties": ["NEWBIE", "JUNIOR", "INTERMEDIATE", "ADVANCED", "GURU"]
