@@ -24,7 +24,7 @@ body {
 .card {
   background-color: var(--off-white);
   width: 340px;
-  height: 300px;
+  /* height: 300px; */
   margin-top: 100px;
   /* border-radius: 25%; */
   border-top-left-radius: 25px;
@@ -42,3 +42,30 @@ body {
 .input-container input, .input-container label {
   width: 85px;
 } 
+
+#btn {
+  background-color: var(--purple);
+  border: 0;
+  border-radius: 50%;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  display: block;
+  margin: 2rem auto;
+}
+
+#btn > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+#btn:active {
+  background-color: red;
+}
+
+.output-container h2 {
+  font-size: 54px;
+}
+
+#years, #months, #days {
+  color: var(--purple);
+}
