@@ -8,8 +8,8 @@ fetch("./src/data.json")
         return `
           <div class="project-card">
             <div class="preview">
-              <a href="./${proj.folder}">
-                <img src="./${proj.folder}/design/desktop-preview.jpg" />
+              <a href="${proj.folder}">
+                <img src="${proj.folder}/design/desktop-preview.jpg" />
               </a>
             </div>
             <div class="info">
@@ -26,8 +26,12 @@ fetch("./src/data.json")
                   )
                   .join("")}
                 <li class="difficulty">
-                  <span class="${difficulties[proj.difficulty].toLowerCase()}">${proj.difficulty + 1}</span>
-                  <span class="${difficulties[proj.difficulty].toLowerCase()}">${difficulties[proj.difficulty]}</span>
+                  <span class="${difficulties[
+                    proj.difficulty
+                  ].toLowerCase()}">${proj.difficulty + 1}</span>
+                  <span class="${difficulties[
+                    proj.difficulty
+                  ].toLowerCase()}">${difficulties[proj.difficulty]}</span>
                 </li>
               </ul>
               <p class="description">

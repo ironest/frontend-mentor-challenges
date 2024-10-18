@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [github.com/ironest/frontend-mentor-challenges/tree/master/age-calculator-app](https://github.com/ironest/frontend-mentor-challenges/tree/master/age-calculator-app)
-- Live Demo URL: [age-calculator-app-alto.vercel.app](https://age-calculator-app-blue.vercel.app/)
+- Live Demo URL: [age-calculator-app-blue.vercel.app](https://age-calculator-app-blue.vercel.app/)
 
 ## My process
 

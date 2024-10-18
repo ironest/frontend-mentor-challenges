@@ -1,39 +1,46 @@
 {
   "projects": [
     {
-      "folder": "blog-preview-card",
+      "folder": "./blog-preview-card",
       "name": "Blog preview card",
       "skills": ["HTML", "CSS"],
       "difficulty": 0,
       "description": "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model."
     },
     {
-      "folder": "social-links-profile",
+      "folder": "./social-links-profile",
       "name": "Social links profile",
       "skills": ["HTML", "CSS"],
       "difficulty": 0,
       "description": "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!"
     },
     {
-      "folder": "results-summary-component",
+      "folder": "./results-summary-component",
       "name": "Results summary component",
       "skills": ["HTML", "CSS"],
       "difficulty": 0,
       "description": "This challenge has something for everyone. It's a HTML and CSS only project, but we've also provided a JSON file of the test results for anyone wanting to practice JS."
     },
     {
-      "folder": "age-calculator-app",
+      "folder": "./age-calculator-app",
       "name": "Age calculator app",
       "skills": ["HTML", "CSS", "JS"],
       "difficulty": 1,
       "description": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!"
     },
     {
-      "folder": "advice-generator-app",
+      "folder": "./advice-generator-app",
       "name": "Advice generator app",
       "skills": ["HTML", "CSS", "JS", "API"],
       "difficulty": 1,
       "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
+    },
+    {
+      "folder": "https://product-list-with-cart-amber.vercel.app",
+      "name": "Product List With Cart",
+      "skills": ["HTML", "CSS", "JS", "API"],
+      "difficulty": 1,
+      "description": "Practice updating the UI in multiple places based on user actions. The starter download also includes a JSON file to help you practice populating the DOM dynamically."
     }
   ],
   "difficulties": ["NEWBIE", "JUNIOR", "INTERMEDIATE", "ADVANCED", "GURU"]
