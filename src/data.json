@@ -43,10 +43,10 @@
       "description": "Practice updating the UI in multiple places based on user actions. The starter download also includes a JSON file to help you practice populating the DOM dynamically."
     },
     {
-      "folder": "https://interactive-card-details-form-violet.vercel.app/",
+      "folder": "https://interactive-card-details-form-violet.vercel.app",
       "name": "Interactive card details form",
       "skills": ["HTML", "CSS", "JS"],
-      "difficulty": 2,
+      "difficulty": 1,
       "description": "Practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test."
     }
   ],

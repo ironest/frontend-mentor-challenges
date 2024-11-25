@@ -14,7 +14,7 @@ fetch("./src/data.json")
             </div>
             <div class="info">
               <h2 class="project-name">
-                <a href="./${proj.folder}">
+                <a href="${proj.folder}">
                   ${proj.name}
                 </a>
               </h2>
